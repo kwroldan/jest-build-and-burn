@@ -1,5 +1,5 @@
-const division = require("./index");
+const subtraction = require("./index");
 
-test("divides 12 / 3 to equal 4", () => {
-    expect(division(12, 3)).toBe(4);
+test("subtracts 100 - 25 to equal 75", () => {
+    expect(subtraction(100, 25)).toBe(75);
 });
