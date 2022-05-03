@@ -1,5 +1,5 @@
-const sum = require('./index');
+const product = require("./index");
 
-test("adds 2 + 4 to equal 6", () => {
-    expect(sum(2, 4)).toBe(6);
-});
+test("multiplies 3 * 6 to equal 18", () => {
+    expect(product(3, 6)).toBe(18)
+})
