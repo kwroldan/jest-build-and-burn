@@ -1,5 +1,5 @@
-const product = require("./index");
+const division = require("./index");
 
-test("multiplies 3 * 6 to equal 18", () => {
-    expect(product(3, 6)).toBe(18)
-})
+test("divides 12 / 3 to equal 4", () => {
+    expect(division(12, 3)).toBe(4);
+});
