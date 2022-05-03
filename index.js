@@ -1,5 +1,5 @@
-function subtraction(a, b) {
-    return a - b;
+function exponent(a, b) {
+    return a ** b
 }
 
-module.exports = subtraction;
+module.exports = exponent;

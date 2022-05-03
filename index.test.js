@@ -1,5 +1,5 @@
-const subtraction = require("./index");
+const exponent = require("./index");
 
-test("subtracts 100 - 25 to equal 75", () => {
-    expect(subtraction(100, 25)).toBe(75);
+test("exponentiates 3 ** 2 to equal 9", () => {
+    expect(exponent(3, 2)).toBe(9)
 });
